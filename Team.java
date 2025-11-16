@@ -6,7 +6,7 @@
         //To get the number of problem the team needs to solve
         int n = sc.nextInt();
 
-        int count = 0, 
+        int count = 0;
 
         //Now for the 3 students(Petya, Vasya and Tonya) who are in we need their inputs 
 
