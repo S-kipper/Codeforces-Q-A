@@ -16,8 +16,17 @@ public class wayTooLongWords {
         //Now we need to check whether the string has more than 10 words in it or not 
 
             if(str.length() > 10)   {
-                System.out.println(""+ str.charAt(0) + (str.length() - 2)+str.charAt(str.length() - 1));
-                
+                System.out.println(""+str.charAt(0) + (str.length() - 2)+str.charAt(str.length() - 1));
+                /*Java sees:
+
+str.charAt(0) → char
+
+(str.length() - 2) → int
+
+str.charAt(str.length() - 1) → char
+
+When you add a char + int, Java converts them to numbers and adds them, not strings.
+So it does math instead of concatenation — which is why the output becomes wrong. */   
             }
 
             else    {
