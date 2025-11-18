@@ -1,2 +1,2 @@
 # Codeforces-Q-A
-Trying to Learn something New
+Trying to Learn Competitive Programming
