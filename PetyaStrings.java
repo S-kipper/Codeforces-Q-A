@@ -10,10 +10,10 @@ public class PetyaStrings {
         String b = sc.nextLine();
         String lowerB = b.toLowerCase();
 
-        if(lowerA.compareTo(lowerB) < 0)
+        if(lowerA.compareTo(lowerB) < 0)  //A less than B
             System.out.println("-1");
 
-        else if(lowerA.compareTo(lowerB) > 0)
+        else if(lowerA.compareTo(lowerB) > 0) // A greater than B
             System.out.println("1");
 
         else
